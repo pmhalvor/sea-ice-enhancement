@@ -1,0 +1,16 @@
+name: sea-ice-enhancement
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - geojson
+      - geopandas
+      - matplotlib
+      - numpy 
+      - pandas
+      - plotly 
+      - requests
+
+prefix: /Users/per.morten.halvorsen@schibsted.com/personal/sea-ice-enhancement/env
